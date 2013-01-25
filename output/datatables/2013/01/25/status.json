@@ -1,0 +1,166 @@
+{
+   "aaData" : [
+      {
+         "ocurrencias" : 662,
+         "categoria" : "Redirect",
+         "status" : "304",
+         "descripcion" : "Not Modified"
+      },
+      {
+         "ocurrencias" : 325,
+         "categoria" : "Redirect",
+         "status" : "302",
+         "descripcion" : "Found"
+      },
+      {
+         "ocurrencias" : 6,
+         "categoria" : "Redirect",
+         "status" : "303",
+         "descripcion" : "See Other"
+      },
+      {
+         "ocurrencias" : 32,
+         "categoria" : "Redirect",
+         "status" : "301",
+         "descripcion" : "Moved Permanently"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Other",
+         "status" : "12156",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 21,
+         "categoria" : "Other",
+         "status" : "10060",
+         "descripcion" : "A connection timed out."
+      },
+      {
+         "ocurrencias" : 20,
+         "categoria" : "Other",
+         "status" : "10053",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 85,
+         "categoria" : "Other",
+         "status" : "64",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 16,
+         "categoria" : "Other",
+         "status" : "11001",
+         "descripcion" : "Host not found."
+      },
+      {
+         "ocurrencias" : 13,
+         "categoria" : "Other",
+         "status" : "10054",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 99,
+         "categoria" : "Other",
+         "status" : "10061",
+         "descripcion" : "A connection was refused by the destination host."
+      },
+      {
+         "ocurrencias" : 883,
+         "categoria" : "Other",
+         "status" : "12232",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 40,
+         "categoria" : "Other",
+         "status" : "0",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Other",
+         "status" : "3221487617",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 371,
+         "categoria" : "Other",
+         "status" : "12210",
+         "descripcion" : "An Internet Server API (ISAPI) filter has finished handling the request. Contact your system administrator."
+      },
+      {
+         "ocurrencias" : 3,
+         "categoria" : "Other",
+         "status" : "995",
+         "descripcion" : "Operation aborted."
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Other",
+         "status" : "13",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 23,
+         "categoria" : "Client Error",
+         "status" : "403",
+         "descripcion" : "Forbidden"
+      },
+      {
+         "ocurrencias" : 7,
+         "categoria" : "Client Error",
+         "status" : "400",
+         "descripcion" : "Bad Request"
+      },
+      {
+         "ocurrencias" : 144,
+         "categoria" : "Client Error",
+         "status" : "404",
+         "descripcion" : "Not Found"
+      },
+      {
+         "ocurrencias" : 4,
+         "categoria" : "Server Error",
+         "status" : "503",
+         "descripcion" : "Service Unavailable"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Server Error",
+         "status" : "502",
+         "descripcion" : "Bad Gateway"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Server Error",
+         "status" : "500",
+         "descripcion" : "Internal Server Error"
+      },
+      {
+         "ocurrencias" : 15424,
+         "categoria" : "Success",
+         "status" : "200",
+         "descripcion" : "OK"
+      },
+      {
+         "ocurrencias" : 677,
+         "categoria" : "Success",
+         "status" : "204",
+         "descripcion" : "No Content"
+      },
+      {
+         "ocurrencias" : 475,
+         "categoria" : "Success",
+         "status" : "206",
+         "descripcion" : "Partial Content"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Success",
+         "status" : "202",
+         "descripcion" : "Accepted"
+      }
+   ]
+}

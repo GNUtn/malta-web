@@ -1,0 +1,76 @@
+{
+   "aaData" : [
+      {
+         "ocurrencias" : 2,
+         "categoria" : "MSDW"
+      },
+      {
+         "ocurrencias" : 5,
+         "categoria" : "tutoriales100_ar_3-1.0"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "contype"
+      },
+      {
+         "ocurrencias" : 85,
+         "categoria" : "BITS"
+      },
+      {
+         "ocurrencias" : 801,
+         "categoria" : "Firefox"
+      },
+      {
+         "ocurrencias" : 5,
+         "categoria" : "Microsoft-CryptoAPI"
+      },
+      {
+         "ocurrencias" : 4,
+         "categoria" : "Update"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Shockwave Updater"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Java"
+      },
+      {
+         "ocurrencias" : 2181,
+         "categoria" : "Chrome"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "AdvancedInstaller"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Adobe Downloader App"
+      },
+      {
+         "ocurrencias" : 3,
+         "categoria" : "tutoriales100_ar_1-0.99"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Shockwave Downloader"
+      },
+      {
+         "ocurrencias" : 3,
+         "categoria" : "Install Stub"
+      },
+      {
+         "ocurrencias" : 24,
+         "categoria" : "Windows-Update-Agent"
+      },
+      {
+         "ocurrencias" : 513,
+         "categoria" : "Internet Explorer"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Microsoft NCSI"
+      }
+   ]
+}

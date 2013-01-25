@@ -1,0 +1,24 @@
+{
+   "aaData" : [
+      {
+         "ocurrencias" : 24,
+         "categoria" : "Gambling"
+      },
+      {
+         "ocurrencias" : 6,
+         "categoria" : "Spyware/Adware"
+      },
+      {
+         "ocurrencias" : 8,
+         "categoria" : "Pornography"
+      },
+      {
+         "ocurrencias" : 1966,
+         "categoria" : "Malicious"
+      },
+      {
+         "ocurrencias" : 66,
+         "categoria" : "Phishing"
+      }
+   ]
+}

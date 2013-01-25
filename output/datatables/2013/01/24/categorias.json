@@ -1,0 +1,20 @@
+{
+   "aaData" : [
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Gambling"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Pornography"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Phishing"
+      },
+      {
+         "ocurrencias" : 146,
+         "categoria" : "Malicious"
+      }
+   ]
+}

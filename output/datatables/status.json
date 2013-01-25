@@ -1,0 +1,166 @@
+{
+   "aaData" : [
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Other",
+         "status" : "12156",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 44,
+         "categoria" : "Other",
+         "status" : "10060",
+         "descripcion" : "A connection timed out."
+      },
+      {
+         "ocurrencias" : 42,
+         "categoria" : "Other",
+         "status" : "10053",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 216,
+         "categoria" : "Other",
+         "status" : "64",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 32,
+         "categoria" : "Other",
+         "status" : "11001",
+         "descripcion" : "Host not found."
+      },
+      {
+         "ocurrencias" : 30,
+         "categoria" : "Other",
+         "status" : "10054",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 206,
+         "categoria" : "Other",
+         "status" : "10061",
+         "descripcion" : "A connection was refused by the destination host."
+      },
+      {
+         "ocurrencias" : 2070,
+         "categoria" : "Other",
+         "status" : "12232",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 84,
+         "categoria" : "Other",
+         "status" : "0",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 4,
+         "categoria" : "Other",
+         "status" : "3221487617",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 800,
+         "categoria" : "Other",
+         "status" : "12210",
+         "descripcion" : "An Internet Server API (ISAPI) filter has finished handling the request. Contact your system administrator."
+      },
+      {
+         "ocurrencias" : 10,
+         "categoria" : "Other",
+         "status" : "995",
+         "descripcion" : "Operation aborted."
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Other",
+         "status" : "13",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 1620,
+         "categoria" : "Redirect",
+         "status" : "304",
+         "descripcion" : "Not Modified"
+      },
+      {
+         "ocurrencias" : 732,
+         "categoria" : "Redirect",
+         "status" : "302",
+         "descripcion" : "Found"
+      },
+      {
+         "ocurrencias" : 12,
+         "categoria" : "Redirect",
+         "status" : "303",
+         "descripcion" : "See Other"
+      },
+      {
+         "ocurrencias" : 74,
+         "categoria" : "Redirect",
+         "status" : "301",
+         "descripcion" : "Moved Permanently"
+      },
+      {
+         "ocurrencias" : 46,
+         "categoria" : "Client Error",
+         "status" : "403",
+         "descripcion" : "Forbidden"
+      },
+      {
+         "ocurrencias" : 16,
+         "categoria" : "Client Error",
+         "status" : "400",
+         "descripcion" : "Bad Request"
+      },
+      {
+         "ocurrencias" : 336,
+         "categoria" : "Client Error",
+         "status" : "404",
+         "descripcion" : "Not Found"
+      },
+      {
+         "ocurrencias" : 8,
+         "categoria" : "Server Error",
+         "status" : "503",
+         "descripcion" : "Service Unavailable"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Server Error",
+         "status" : "502",
+         "descripcion" : "Bad Gateway"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Server Error",
+         "status" : "500",
+         "descripcion" : "Internal Server Error"
+      },
+      {
+         "ocurrencias" : 36710,
+         "categoria" : "Success",
+         "status" : "200",
+         "descripcion" : "OK"
+      },
+      {
+         "ocurrencias" : 1692,
+         "categoria" : "Success",
+         "status" : "204",
+         "descripcion" : "No Content"
+      },
+      {
+         "ocurrencias" : 1154,
+         "categoria" : "Success",
+         "status" : "206",
+         "descripcion" : "Partial Content"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Success",
+         "status" : "202",
+         "descripcion" : "Accepted"
+      }
+   ]
+}

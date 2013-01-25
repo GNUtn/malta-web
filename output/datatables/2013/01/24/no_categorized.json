@@ -1,0 +1,74 @@
+{
+   "aaData" : [
+      {
+         "ocurrencias" : 1,
+         "categoria" : "www.imcom.com.ar",
+         "trafico" : 21170
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "www.facebook.com",
+         "trafico" : 2252
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "www.mediafire.com",
+         "trafico" : 128630755
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "17c-g08.geewa.ws",
+         "trafico" : 9692
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "ask.fm",
+         "trafico" : 1813
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "tag.tlvmedia.com",
+         "trafico" : 1885
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "14c-g03.geewa.ws",
+         "trafico" : 927
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "sl.static.geewa.net",
+         "trafico" : 137673
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "radios.inovanex.com",
+         "trafico" : 2541
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "108.162.199.166",
+         "trafico" : 1555
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "50.115.160.157",
+         "trafico" : 1795
+      },
+      {
+         "ocurrencias" : 4,
+         "categoria" : "apps.geewa.com",
+         "trafico" : 949978
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "13c-g01.geewa.ws",
+         "trafico" : 2137
+      },
+      {
+         "ocurrencias" : 3,
+         "categoria" : "200.5.89.241",
+         "trafico" : 2544
+      }
+   ]
+}

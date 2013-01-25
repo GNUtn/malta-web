@@ -1,0 +1,249 @@
+{
+   "aaData" : [
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Gambling",
+         "usuario" : "0620d581ed7650b34c8cb07686880577"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Pornography",
+         "usuario" : "9dd62df3bf366193dd46211656831e09"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Pornography",
+         "usuario" : "ea74ef6fc700fedc4dafd1477edc916e"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Phishing",
+         "usuario" : "f409c137f9400eadac9a0fad8f48ca59"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Phishing",
+         "usuario" : "9421ba1049c28104e2ccc76c629b8009"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "c4027bf3d7742c8fe0553e8be5c09dc9"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "9421ba1049c28104e2ccc76c629b8009"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "09961451bfdc91d41cf59925261e21ba"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "684a16ad5b1095046a3630bdfb09feb5"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "fbe4c8e9d91880e7f9e23875f2bd9aae"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "32cf13c20077f90f545631316864ee35"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "ff82c7453168bc8b5b87c938ca6d535a"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "227c6125a3a2a6834779cac5621218d0"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "26ed93fe35b0e84342b624a3bcfbf018"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "a287fffb1c6ea36fa9d76992276aed0f"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "89d218350fbf70e1ef0814c580020555"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "0541438ebf38b93646208ac070ad9303"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "30d592f2605274fc3b26fca9974eedf9"
+      },
+      {
+         "ocurrencias" : 4,
+         "categoria" : "Malicious",
+         "usuario" : "ed6107e0b829e309199a0ce1d5b8414e"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "c678febf37366224f52347d3265b0c4f"
+      },
+      {
+         "ocurrencias" : 61,
+         "categoria" : "Malicious",
+         "usuario" : "a928a4d0864a2aa0ec11513561b796fd"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "775c932ee8c3a81ef14b03bed54621e4"
+      },
+      {
+         "ocurrencias" : 4,
+         "categoria" : "Malicious",
+         "usuario" : "1a577b6e39aa48796a11b948e59daa7f"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "b393d4732b82e3d4f85b4e18e679b714"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "28ce93f85650b9e42f76f188d8f5d02a"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "10c2772a9b486aca5e697afc22868db9"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "39ffe1480cdd3b31d62e5a2f951f6fc0"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "7324590ad12e5fc487edc19c6bf14c85"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "cca0dcca628e368a3aa2039eb5805e01"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "ad0973c5a706bff8b62200bdfacd6f11"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "9dd62df3bf366193dd46211656831e09"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "5beb4ba1450d92bc1f480c4d494eab4e"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "ff0d4f345b59316672724e165e8cd0f6"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "35b15a9a5f1db78b9ad0d64f324940d2"
+      },
+      {
+         "ocurrencias" : 3,
+         "categoria" : "Malicious",
+         "usuario" : "f409c137f9400eadac9a0fad8f48ca59"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "9d7a8c499dd5b04f90ee53fc6720d5e5"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "ae474c99befc7f1b5a57b36448ea37bc"
+      },
+      {
+         "ocurrencias" : 3,
+         "categoria" : "Malicious",
+         "usuario" : "469e6925134f3ddfa639683436667fe4"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "b31df0e7bdb7bb4b0c28ab5e296dab43"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "ae9585f1724b3c159f879e24945109fd"
+      },
+      {
+         "ocurrencias" : 9,
+         "categoria" : "Malicious",
+         "usuario" : "9d267ca2ab845dab83368efa1097d211"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "81fb22d1a90830d878fd3f936d7440fe"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "d2df6a7d9b8ebb69b3d5c34bbe93a2d6"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "a8bc73dd1cd48305745615108ba679fe"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "dfca92e384f5109029308e2c885f68d4"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "3302b5a23ebb8685d5e074fee203f06a"
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Malicious",
+         "usuario" : "894ad47d478b93841964ba6cc3ec2fd2"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Malicious",
+         "usuario" : "47c4e25043a766c4fb1a9c57d9f15db2"
+      },
+      {
+         "ocurrencias" : 5,
+         "categoria" : "Malicious",
+         "usuario" : "b091ce5ae7da827d1b92ee905c901780"
+      }
+   ]
+}

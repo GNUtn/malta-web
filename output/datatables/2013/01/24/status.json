@@ -1,0 +1,106 @@
+{
+   "aaData" : [
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Other",
+         "status" : "10060",
+         "descripcion" : "A connection timed out."
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Other",
+         "status" : "10053",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Other",
+         "status" : "0",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 23,
+         "categoria" : "Other",
+         "status" : "64",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Other",
+         "status" : "995",
+         "descripcion" : "Operation aborted."
+      },
+      {
+         "ocurrencias" : 2,
+         "categoria" : "Other",
+         "status" : "10054",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 29,
+         "categoria" : "Other",
+         "status" : "12210",
+         "descripcion" : "An Internet Server API (ISAPI) filter has finished handling the request. Contact your system administrator."
+      },
+      {
+         "ocurrencias" : 4,
+         "categoria" : "Other",
+         "status" : "10061",
+         "descripcion" : "A connection was refused by the destination host."
+      },
+      {
+         "ocurrencias" : 152,
+         "categoria" : "Other",
+         "status" : "12232",
+         "descripcion" : null
+      },
+      {
+         "ocurrencias" : 148,
+         "categoria" : "Redirect",
+         "status" : "304",
+         "descripcion" : "Not Modified"
+      },
+      {
+         "ocurrencias" : 41,
+         "categoria" : "Redirect",
+         "status" : "302",
+         "descripcion" : "Found"
+      },
+      {
+         "ocurrencias" : 5,
+         "categoria" : "Redirect",
+         "status" : "301",
+         "descripcion" : "Moved Permanently"
+      },
+      {
+         "ocurrencias" : 1,
+         "categoria" : "Client Error",
+         "status" : "400",
+         "descripcion" : "Bad Request"
+      },
+      {
+         "ocurrencias" : 24,
+         "categoria" : "Client Error",
+         "status" : "404",
+         "descripcion" : "Not Found"
+      },
+      {
+         "ocurrencias" : 2931,
+         "categoria" : "Success",
+         "status" : "200",
+         "descripcion" : "OK"
+      },
+      {
+         "ocurrencias" : 169,
+         "categoria" : "Success",
+         "status" : "204",
+         "descripcion" : "No Content"
+      },
+      {
+         "ocurrencias" : 102,
+         "categoria" : "Success",
+         "status" : "206",
+         "descripcion" : "Partial Content"
+      }
+   ]
+}
