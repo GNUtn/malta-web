@@ -61,7 +61,7 @@ View.prototype = {
 	
 	loadValues: function(date) {
 		var path = this.controller.get_values(date, this.selectedReport, this.selectedFreq);
-		var oTable = $('#data-table').dataTable({
+		$('#data-table').dataTable({
 			"bDestroy": true,
 			"bProcessing": true,
 			"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
@@ -72,8 +72,8 @@ View.prototype = {
 				"sLengthMenu": "_MENU_ records per page"
 			},
 			"aaSorting": this.selectedReport.sortInfo,
-		});
-		oTable.columnFilter({aoColumns:this.selectedReport.filterInfo});
+		}).columnFilter({aoColumns:this.selectedReport.filterInfo});
+		$("[rel='tooltip']").tooltip();
 	},
 	
 	restartTable: function() {

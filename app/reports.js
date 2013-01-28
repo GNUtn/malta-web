@@ -6,12 +6,13 @@ function Report(name, filename, colsInfo, sortInfo, filterInfo) {
 	this.filterInfo = filterInfo;
 }
 
-Report.prototype.myRender = function (data, type, full) {
-	if (type == 'display' && data && data.length > 10) {
+Report.myRender = function (data, type, full) {
+	if (type == 'display' && data && data.length > 50) {
 		return data.substring(0, 50) + '<a href="#" rel="tooltip" data-placement="bottom" data-original-title="' + data + '">...</a>';
 	}
 	return data;
 };
+
 Report.Global = function() {
 	report = new Report(
 		'Globales',
@@ -70,7 +71,7 @@ Report.CategoriaUsuarioPagina = function() {
 		'Categorías por Usuario y Página',
 		'categoria_usuario_pagina.json',
 		[
-			{ "mData": "pagina", "sTitle": "Página", mRender: this.myRender },
+			{ "mData": "pagina", "sTitle": "Página", mRender: Report.myRender },
 			{ "mData": "usuario", "sTitle": "Usuario" },
 			{ "mData": "categoria", "sTitle": "Categoría" },
 			{ "mData": "ocurrencias", "sTitle": "Ocurrencias" },
@@ -93,7 +94,7 @@ Report.CodigosEstado = function() {
 		[
 			{ "mData": "categoria", "sTitle": "Categoría" },
 			{ "mData": "status", "sTitle": "Estado" },
-			{ "mData": "descripcion", "sTitle": "Descripción", "mRender": this.myRender },
+			{ "mData": "descripcion", "sTitle": "Descripción", "mRender": Report.myRender },
 			{ "mData": "ocurrencias", "sTitle": "Ocurrencias" },
 		],
 		[[ 3, "desc" ]],
@@ -129,7 +130,7 @@ Report.Paginas = function() {
 		'Páginas',
 		'paginas.json',
 		[
-			{ "mData": "destino", "sTitle": "Página", "mRender": this.myRender },
+			{ "mData": "destino", "sTitle": "Página", "mRender": Report.myRender },
 			{ "mData": "ocurrencias", "sTitle": "Ocurrencias" },
 			{ "mData": "trafico", "sTitle": "Tráfico" },
 		],
@@ -148,7 +149,7 @@ Report.PaginasUsuario = function() {
 		'Páginas por Usuario',
 		'pagina_usuario.json',
 		[
-			{ "mData": "pagina", "sTitle": "Página", "mRender": this.myRender },
+			{ "mData": "pagina", "sTitle": "Página", "mRender": Report.myRender },
 			{ "mData": "usuario", "sTitle": "Usuario" },
 			{ "mData": "ocurrencias", "sTitle": "Ocurrencias" },
 			{ "mData": "trafico", "sTitle": "Tráfico" },
@@ -188,7 +189,7 @@ Report.Descargas = function() {
 		'Descargas',
 		'descargas.json',
 		[
-			{ "mData": "archivo", "sTitle": "Archivo", "mRender": this.myRender },
+			{ "mData": "archivo", "sTitle": "Archivo", "mRender": Report.myRender },
 			{ "mData": "transferencia", "sTitle": "Tráfico" },
 			{ "mData": "descargas", "sTitle": "Descargas" },
 		],
@@ -260,7 +261,7 @@ Report.NoCategorizados = function() {
 		'Sitios no categorizados',
 		'no_categorized.json',
 		[
-			{ "mData": "categoria", "sTitle": "Sitio", "mRender": this.myRender },
+			{ "mData": "categoria", "sTitle": "Sitio", "mRender": Report.myRender },
 			{ "mData": "ocurrencias", "sTitle": "Ocurrencias" },
 			{ "mData": "trafico", "sTitle": "Trafico" },
 		],
