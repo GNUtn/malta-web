@@ -8,7 +8,7 @@ function Report(name, filename, colsInfo, sortInfo, filterInfo) {
 
 Report.myRender = function (data, type, full) {
 	if (type == 'display' && data && data.length > 50) {
-		return data.substring(0, 50) + '<a href="#" rel="tooltip" data-placement="bottom" data-original-title="' + data + '">...</a>';
+		return data.substring(0, 50) + '<a href="#" title="' + data + '">...</a>';
 	}
 	return data;
 };
