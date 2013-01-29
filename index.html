@@ -17,7 +17,7 @@
 		width: 25px
 	  }
     </style>
-
+	
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -98,15 +98,17 @@
     <!-- Javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
+    
+	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap-datepicker.js"></script>
-	<script src="app/controller.js"></script>
-	<script src="app/view.js"></script>
-	<script src="app/reports.js"></script>
 	<script src="datatables/js/jquery.dataTables.js"></script>
 	<script src="datatables/js/DT_bootstrap_paging.js"></script>
 	<script src="datatables/extras/jquery.dataTables.columnFilter.js"></script>
+	
+	<script src="app/controller.js"></script>
+	<script src="app/reports.js"></script>
+	<script src="app/view.js"></script>
 	
 	<script>
 		var view = new View();
@@ -127,11 +129,14 @@
 					view.loadValues($('#date-input').data('date'));
 			});
 			
+			view.selectReport('Globales', 'Globales');
+			
 			/* Hide alert */
 			$('.close').click(function(){
 				$(this).parent().hide();
 			});
 		});
 	</script>
+	
   </body>
 </html>

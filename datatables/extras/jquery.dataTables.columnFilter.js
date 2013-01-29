@@ -86,12 +86,11 @@
         }
 
         function _fnColumnIndex(iColumnIndex) {
-            if (properties.bUseColVis)
-                return iColumnIndex;
-            else
-                return oTable.fnSettings().oApi._fnVisibleToColumnIndex(oTable.fnSettings(), iColumnIndex);
-            //return iColumnIndex;
-            //return oTable.fnSettings().oApi._fnColumnIndexToVisible(oTable.fnSettings(), iColumnIndex);
+			return iColumnIndex;
+            //if (properties.bUseColVis)
+            //    return iColumnIndex;
+            //else
+                //return oTable.fnSettings().oApi._fnVisibleToColumnIndex(oTable.fnSettings(), iColumnIndex);
         }
 
         function fnCreateInput(oTable, regex, smart, bIsNumber, iFilterLength, iMaxLenght) {

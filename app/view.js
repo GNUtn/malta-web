@@ -16,12 +16,10 @@ function View() {
 		Report.NoCategorizados(),
 	];
 	this.reports = reports;
-	this.selectedFreq = 'Estadísticas Globales';
 	var reportNames = $.map(reports, function(elem, i) {
 		return elem.name;
 	});
 	this.reportNames = reportNames;
-	this.selectedReport = reports[reportNames.indexOf('Globales')];
 	this.controller = new Controller();
 }
 
@@ -60,34 +58,28 @@ View.prototype = {
 	},
 	
 	loadValues: function(date) {
+		this.restartTable();
 		$('.alert').hide();
-		var path = this.controller.get_values(date, this.selectedReport, this.selectedFreq);
+		var jqxhr = this.controller.getValues(date, this.selectedReport, this.selectedFreq);
+		jqxhr.done(function(data) { view.createDataTable(data.aaData) });
+		jqxhr.fail(view.handleAjaxError);
+	},
+	
+	createDataTable: function(aaData) {
 		$('#data-table').dataTable({
-			"bDestroy": true,
 			"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
 			"sPaginationType": "bootstrap",
-			"sAjaxSource": path,
+			"aaData": aaData,
 			"aoColumns": this.selectedReport.colsInfo,
 			"oLanguage": {
 				"sLengthMenu": "_MENU_ records per page"
 			},
 			"aaSorting": this.selectedReport.sortInfo,
-			"fnServerData": function ( sSource, aoData, fnCallback ) {
-				$.ajax( {
-					"dataType": 'json',
-					"type": "GET",
-					"url": sSource,
-					"success": fnCallback,
-					"error": view.handleAjaxError,
-					"statusCode": {
-						404: view.handleAjaxError
-					}
-				} );
-			}
 		}).columnFilter({aoColumns:this.selectedReport.filterInfo});
 	},
 	
 	handleAjaxError: function ( xhr, textStatus, error ) {
+		view.restartTable();
 		$('#alert').fadeIn();
 	},
 	
