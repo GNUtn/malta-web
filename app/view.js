@@ -60,9 +60,18 @@ View.prototype = {
 	loadValues: function(date) {
 		this.restartTable();
 		$('.alert').hide();
+		this.addLoadingImage();
 		var jqxhr = this.controller.getValues(date, this.selectedReport, this.selectedFreq);
-		jqxhr.done(function(data) { view.createDataTable(data.aaData) });
+		jqxhr.done(function(data) { view.removeLoadingImage(); view.createDataTable(data.aaData) });
 		jqxhr.fail(view.handleAjaxError);
+	},
+	
+	addLoadingImage: function() {
+		$('#table-row').prepend('<center id="loading"><img src="img/ajax-loader.gif" /></center>');
+	},
+	
+	removeLoadingImage: function() {
+		$('#loading').remove();
 	},
 	
 	createDataTable: function(aaData) {
